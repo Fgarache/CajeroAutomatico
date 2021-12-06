@@ -34,7 +34,7 @@ public abstract class ClaseP {
                     mensaje.Transacciones();
                 }
 
-                //retiro de ecetivo
+                //retiro de efectivo
                 else if (seleccion ==2){
                     ClaseP mensaje =  new RetiroH();
                     mensaje.Transacciones();
@@ -79,7 +79,6 @@ public abstract class ClaseP {
         return saldo;
     }
 
-    public void setSaldo(int i){
-        this.saldo = saldo;
-    }
+    public void setSaldo(int saldo){
+        this.saldo = saldo;}
 }
