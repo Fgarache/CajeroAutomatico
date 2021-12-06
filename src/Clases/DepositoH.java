@@ -3,7 +3,7 @@ package Clases;
 public class DepositoH extends ClaseP{
     @Override
     public void Transacciones() {
-        System.out.println("Cuanto desas depositar:");
+        System.out.print("Cuanto desas depositar:  ");
         Deposito();
 
         transacciones = getSaldo();

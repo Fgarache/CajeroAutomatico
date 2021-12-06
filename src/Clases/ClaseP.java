@@ -80,5 +80,6 @@ public abstract class ClaseP {
     }
 
     public void setSaldo(int saldo){
-        this.saldo = saldo;}
+        this.saldo = saldo;
+    }
 }
